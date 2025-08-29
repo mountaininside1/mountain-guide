@@ -1,3 +1,6 @@
+mountain-guide/
+  └── index.html
+
 # mountain-guide
 
 <!DOCTYPE html>
