@@ -76,41 +76,8 @@
       At <strong>Mountain Inside</strong>, we believe every mountain adventure brings out the best in people. 
       With certified guides and years of experience in the Alps and Carpathians, we offer safe, memorable journeys. 
       Whether you’re seeking a challenging climb, a scenic trek, or a team-building adventure, we’ve got you covered.
-    </p>
-  </section>
 
-  <section id="services">
-    <h2>Our Services</h2>
-    <div class="services">
-      <div class="service">
-        <h3>Mountain Guiding</h3>
-        <p>Tailored trips for individuals or groups across stunning mountain ranges.</p>
-      </div>
-      <div class="service">
-        <h3>Climbing Adventures</h3>
-        <p>From beginner-friendly rock routes to alpine ascents, we help you reach the summit.</p>
-      </div>
-      <div class="service">
-        <h3>Team Building</h3>
-        <p>Custom outdoor experiences designed to strengthen teamwork, trust, and resilience.</p>
-      </div>
-    </div>
-  </section>
-
-  <section id="contact">
-    <h2>Contact Us</h2>
-    <p>Email: <a href="mailto:info@mountaininside.com">info@mountaininside.com</a></p>
-    <p>Phone: +40 123 456 789</p>
-    <p>Follow us on Instagram: <a href="#">@mountaininside</a></p>
-  </section>
-
-  <footer>
-    <p>&copy; 2025 Mountain Inside. All rights reserved.</p>
-  </footer>
-</body>
-</html>
-
-I am Ionuț Manea, the founder of the “Mountain Inside” project:
+      I am Ionuț Manea, the founder of the <strong>Mountain Inside</strong> project:
 - AGMR aspiring mountain guide
 - CNFM accredited ski instructor 2017
 - Active military officer - mountain troops, with over a decade of experience in executing and leading specific actions of alpine instruction, mountaineering, tactical instruction and search and rescue in the mountain environment.
@@ -153,3 +120,36 @@ The purpose of these activities is defined by the following:
 5. Carrying out all activities in a stable and safe environment.
 
 "Climb your mountain and you'll become one!"
+    </p>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+      <div class="service">
+        <h3>Mountain Guiding</h3>
+        <p>Tailored trips for individuals or groups across stunning mountain ranges.</p>
+      </div>
+      <div class="service">
+        <h3>Climbing Adventures</h3>
+        <p>From beginner-friendly rock routes to alpine ascents, we help you reach the summit.</p>
+      </div>
+      <div class="service">
+        <h3>Team Building</h3>
+        <p>Custom outdoor experiences designed to strengthen teamwork, trust, and resilience.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: <a href="mailto:info@mountaininside.com">info@mountaininside.com</a></p>
+    <p>Phone: +40 123 456 789</p>
+    <p>Follow us on Instagram: <a href="#">@mountaininside</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Mountain Inside. All rights reserved.</p>
+  </footer>
+</body>
+</html>
