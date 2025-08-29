@@ -1,4 +1,115 @@
 # mountain-guide
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mountain Inside – Guiding You to New Heights</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: url('https://images.unsplash.com/photo-1508264165352-258859e62245?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80') no-repeat center center/cover;
+      color: white;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin: 0;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-top: 10px;
+    }
+    section {
+      padding: 50px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .service {
+      background: #f4f4f4;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    a {
+      color: #0077cc;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Mountain Inside</h1>
+    <p>Guiding You to New Heights – Mountain Guiding, Climbing, Team Building</p>
+  </header>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>
+      At <strong>Mountain Inside</strong>, we believe every mountain adventure brings out the best in people. 
+      With certified guides and years of experience in the Alps and Carpathians, we offer safe, memorable journeys. 
+      Whether you’re seeking a challenging climb, a scenic trek, or a team-building adventure, we’ve got you covered.
+    </p>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+      <div class="service">
+        <h3>Mountain Guiding</h3>
+        <p>Tailored trips for individuals or groups across stunning mountain ranges.</p>
+      </div>
+      <div class="service">
+        <h3>Climbing Adventures</h3>
+        <p>From beginner-friendly rock routes to alpine ascents, we help you reach the summit.</p>
+      </div>
+      <div class="service">
+        <h3>Team Building</h3>
+        <p>Custom outdoor experiences designed to strengthen teamwork, trust, and resilience.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: <a href="mailto:info@mountaininside.com">info@mountaininside.com</a></p>
+    <p>Phone: +40 123 456 789</p>
+    <p>Follow us on Instagram: <a href="#">@mountaininside</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Mountain Inside. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+
 I am Ionuț Manea, the founder of the “Mountain Inside” project:
 - AGMR aspiring mountain guide
 - CNFM accredited ski instructor 2017
