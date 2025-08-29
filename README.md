@@ -77,7 +77,7 @@
       With certified guides and years of experience in the Alps and Carpathians, we offer safe, memorable journeys. 
       Whether you’re seeking a challenging climb, a scenic trek, or a team-building adventure, we’ve got you covered.
 
-      I am Ionuț Manea, the founder of the <strong>Mountain Inside</strong> project:
+I am Ionuț Manea, the founder of the <strong>Mountain Inside</strong> project:
 - AGMR aspiring mountain guide
 - CNFM accredited ski instructor 2017
 - Active military officer - mountain troops, with over a decade of experience in executing and leading specific actions of alpine instruction, mountaineering, tactical instruction and search and rescue in the mountain environment.
