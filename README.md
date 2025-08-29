@@ -77,6 +77,52 @@
       With certified guides and years of experience in the Alps and Carpathians, we offer safe, memorable journeys. 
       Whether you’re seeking a challenging climb, a scenic trek, or a team-building adventure, we’ve got you covered.
 
+RO:
+Sunt Ionuț Manea, fondatorul proiectului „Mountain Inside”:
+- Ghid montan aspirant AGMR
+- Monitor schi acreditat CNFM 2017
+- Cadru militar activ - vânător de munte, cu o experiență de peste un deceniu în executarea și conducerea acțiunilor specifice de instrucție alpină, alpinism, instrucție tactică și căutare-salvare în mediul montan.
+
+Creat în anul 2017, „Mountain Inside” este proiectul de capacitare personală prin acțiuni de aventură desfășurate în mediul montan și în zonele adiacente, concomitent cu reducerea la minimum a riscurilor inerente acestor acțiuni.
+
+Prin acest proiect, aleg să împărtășesc dragostea de munți și uimitoarele oportunități și trăiri pe care munții le oferă cu oamenii deschiși, care doresc eliberarea din societatea ciudată și suprasaturată de informație în care trăim și reconectarea la sine și la ceilalți, prin munte și natură.
+
+Misiune asumată: 
+Transformarea participanților (inclusiv părinți, copii și adolescenți) în oameni mai sănătoși, mai buni și mai conectați cu sine și cu ceilalți, prin următoarele acțiuni desfășurate în mediul montan și în natură, pe toată perioada anului:
+
+1. Escaladă pe stâncă
+
+2. Trasee ghidate de alpinism, carpatism și aventură
+
+3. Orientare și navigație montană
+
+4. Alergare montană
+
+5. Camping și muzică folk
+
+6. Supraviețuire
+
+7. Schi de tură
+
+8. Schi-alpinism
+
+9. Team-building
+
+Scopul acestor activități se definește prin următoarele:
+
+1. Capacitare fizică și psiho-emoțională pentru o dezvoltare armonioasă și pentru construirea și întărirea sănătății generale
+
+2. Reconectarea cu sinele, cu ceilalți și cu natura
+
+3. Cultivarea autocunoașterii, autodisciplinei și voinței prin depășirea provocărilor apărute
+
+4. Cultivarea spiritului liber al participanților de a se descătușa de tehnologie și aglomerație (contrar direcției societății actuale) și de a se manifesta sănătos în natură
+
+5. Desfășurarea tuturor activităților într-un mediu stabil și sigur
+
+„Cațără propriul munte și vei deveni unul!”
+
+EN:
 I am Ionuț Manea, the founder of the <strong>Mountain Inside</strong> project:
 - AGMR aspiring mountain guide
 - CNFM accredited ski instructor 2017
