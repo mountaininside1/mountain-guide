@@ -18,12 +18,14 @@ mountain-guide/
     }
     header {
       color: white;
-      height: 100vh;
+      background: url('header-bg.jpg') center/cover no-repeat; /* optional background image */
+      min-height: 100vh;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
       text-align: center;
+      padding: 0 20px;
     }
     header h1 {
       font-size: 3rem;
@@ -64,6 +66,9 @@ mountain-guide/
       color: #0077cc;
       text-decoration: none;
     }
+    /* Optional: separate RO/EN sections */
+    .about-section { margin-bottom: 40px; }
+    .about-section h3 { text-align: left; margin-top: 30px; }
   </style>
 </head>
 <body>
@@ -74,101 +79,86 @@ mountain-guide/
 
   <section id="about">
     <h2>About Us</h2>
-    <p>
-      At <strong>Mountain Inside</strong>, we believe every mountain adventure brings out the best in people. 
-      With certified guides and years of experience in the Alps and Carpathians, we offer safe, memorable journeys. 
-      Whether you’re seeking a challenging climb, a scenic trek, or a team-building adventure, we’ve got you covered.
 
-RO:
-Sunt Ionuț Manea, fondatorul proiectului „Mountain Inside”:
-- Ghid montan aspirant AGMR
-- Monitor schi acreditat CNFM 2017
-- Cadru militar activ - vânător de munte, cu o experiență de peste un deceniu în executarea și conducerea acțiunilor specifice de instrucție alpină, alpinism, instrucție tactică și căutare-salvare în mediul montan.
+    <div class="about-section" lang="ro">
+      <h3>RO:</h3>
+      <p>Sunt Ionuț Manea, fondatorul proiectului „Mountain Inside”:</p>
+      <ul>
+        <li>Ghid montan aspirant AGMR</li>
+        <li>Monitor schi acreditat CNFM 2017</li>
+        <li>Cadru militar activ - vânător de munte, cu o experiență de peste un deceniu în executarea și conducerea acțiunilor specifice de instrucție alpină, alpinism, instrucție tactică și căutare-salvare în mediul montan.</li>
+      </ul>
+      <p>
+        Creat în anul 2017, „Mountain Inside” este proiectul de capacitare personală prin acțiuni de aventură desfășurate în mediul montan și în zonele adiacente, concomitent cu reducerea la minimum a riscurilor inerente acestor acțiuni.
+      </p>
+      <p>
+        Prin acest proiect, aleg să împărtășesc dragostea de munți și uimitoarele oportunități și trăiri pe care munții le oferă cu oamenii deschiși, care doresc eliberarea din societatea ciudată și suprasaturată de informație în care trăim și reconectarea la sine și la ceilalți, prin munte și natură.
+      </p>
+      <p><strong>Misiune asumată:</strong></p>
+      <ul>
+        <li>Transformarea participanților (inclusiv părinți, copii și adolescenți) în oameni mai sănătoși, mai buni și mai conectați cu sine și cu ceilalți, prin activități montane și în natură pe tot parcursul anului:</li>
+      </ul>
+      <ol>
+        <li>Escaladă pe stâncă</li>
+        <li>Trasee ghidate de alpinism, carpatism și aventură</li>
+        <li>Orientare și navigație montană</li>
+        <li>Alergare montană</li>
+        <li>Camping și muzică folk</li>
+        <li>Supraviețuire</li>
+        <li>Schi de tură</li>
+        <li>Schi-alpinism</li>
+        <li>Team-building</li>
+      </ol>
+      <p>Scopul acestor activități se definește prin următoarele:</p>
+      <ol>
+        <li>Capacitare fizică și psiho-emoțională pentru o dezvoltare armonioasă și pentru construirea și întărirea sănătății generale</li>
+        <li>Reconectarea cu sinele, cu ceilalți și cu natura</li>
+        <li>Cultivarea autocunoașterii, autodisciplinei și voinței prin depășirea provocărilor apărute</li>
+        <li>Cultivarea spiritului liber al participanților de a se descătușa de tehnologie și aglomerație și de a se manifesta sănătos în natură</li>
+        <li>Desfășurarea tuturor activităților într-un mediu stabil și sigur</li>
+      </ol>
+      <p>„Cațără propriul munte și vei deveni unul!”</p>
+    </div>
 
-Creat în anul 2017, „Mountain Inside” este proiectul de capacitare personală prin acțiuni de aventură desfășurate în mediul montan și în zonele adiacente, concomitent cu reducerea la minimum a riscurilor inerente acestor acțiuni.
-
-Prin acest proiect, aleg să împărtășesc dragostea de munți și uimitoarele oportunități și trăiri pe care munții le oferă cu oamenii deschiși, care doresc eliberarea din societatea ciudată și suprasaturată de informație în care trăim și reconectarea la sine și la ceilalți, prin munte și natură.
-
-Misiune asumată: 
-Transformarea participanților (inclusiv părinți, copii și adolescenți) în oameni mai sănătoși, mai buni și mai conectați cu sine și cu ceilalți, prin următoarele acțiuni desfășurate în mediul montan și în natură, pe toată perioada anului:
-
-1. Escaladă pe stâncă
-
-2. Trasee ghidate de alpinism, carpatism și aventură
-
-3. Orientare și navigație montană
-
-4. Alergare montană
-
-5. Camping și muzică folk
-
-6. Supraviețuire
-
-7. Schi de tură
-
-8. Schi-alpinism
-
-9. Team-building
-
-Scopul acestor activități se definește prin următoarele:
-
-1. Capacitare fizică și psiho-emoțională pentru o dezvoltare armonioasă și pentru construirea și întărirea sănătății generale
-
-2. Reconectarea cu sinele, cu ceilalți și cu natura
-
-3. Cultivarea autocunoașterii, autodisciplinei și voinței prin depășirea provocărilor apărute
-
-4. Cultivarea spiritului liber al participanților de a se descătușa de tehnologie și aglomerație (contrar direcției societății actuale) și de a se manifesta sănătos în natură
-
-5. Desfășurarea tuturor activităților într-un mediu stabil și sigur
-
-„Cațără propriul munte și vei deveni unul!”
-
-EN:
-I am Ionuț Manea, the founder of the <strong>Mountain Inside</strong> project:
-- AGMR aspiring mountain guide
-- CNFM accredited ski instructor 2017
-- Active military officer - mountain troops, with over a decade of experience in executing and leading specific actions of alpine instruction, mountaineering, tactical instruction and search and rescue in the mountain environment.
-
-Created in 2017, “Mountain Inside” is the personal empowerment project through adventure actions carried out in the mountain environment and in adjacent areas, while minimizing the risks inherent to these actions.
-
-Through this project, I choose to share the love of mountains and the amazing opportunities and experiences that mountains offer with open-minded people, who want liberation from the strange and information-oversaturated society in which we live and reconnect with themselves and others, through the mountains and nature.
-
-Mission:
-Transforming participants (including parents, children and adolescents) into healthier, better and more connected people with themselves and others, through the following activities carried out in the mountain environment and in nature, throughout the year:
-
-1. Rock climbing
-
-2. Guided mountaineering, carpathian and adventure trails
-
-3. Mountain orienteering & navigation
-
-4. Mountain running
-
-5. Camping and folk music
-
-6. Survival
-
-7. Ski touring
-
-8. Ski mountaineering
-
-9. Team-building
-
-The purpose of these activities is defined by the following:
-
-1. Physical and psycho-emotional training for harmonious development and for building and strengthening general health
-
-2. Reconnecting with oneself, others and nature
-
-3. Cultivating self-knowledge, self-discipline and willpower by overcoming the challenges that arise
-
-4. Cultivating the free spirit of the participants to break free from technology and crowding (contrary to the direction of current society) and to manifest healthily in nature.
-
-5. Carrying out all activities in a stable and safe environment.
-
-"Climb your mountain and you'll become one!"
-    </p>
+    <div class="about-section" lang="en">
+      <h3>EN:</h3>
+      <p>I am Ionuț Manea, the founder of the <strong>Mountain Inside</strong> project:</p>
+      <ul>
+        <li>AGMR aspiring mountain guide</li>
+        <li>CNFM accredited ski instructor 2017</li>
+        <li>Active military officer - mountain troops, with over a decade of experience in executing and leading alpine instruction, mountaineering, tactical instruction, and search and rescue in mountain environments.</li>
+      </ul>
+      <p>
+        Created in 2017, “Mountain Inside” is the personal empowerment project through adventure activities carried out in the mountain environment and adjacent areas, while minimizing the inherent risks.
+      </p>
+      <p>
+        Through this project, I choose to share the love of mountains and the amazing opportunities and experiences they offer with open-minded people who want to break free from the oversaturated society in which we live and reconnect with themselves and others through nature and mountains.
+      </p>
+      <p><strong>Mission:</strong></p>
+      <ul>
+        <li>Transforming participants (including parents, children, and adolescents) into healthier, better, and more connected people with themselves and others through mountain and nature activities year-round:</li>
+      </ul>
+      <ol>
+        <li>Rock climbing</li>
+        <li>Guided mountaineering, Carpathian, and adventure trails</li>
+        <li>Mountain orienteering & navigation</li>
+        <li>Mountain running</li>
+        <li>Camping and folk music</li>
+        <li>Survival</li>
+        <li>Ski touring</li>
+        <li>Ski mountaineering</li>
+        <li>Team-building</li>
+      </ol>
+      <p>The purpose of these activities:</p>
+      <ol>
+        <li>Physical and psycho-emotional training for harmonious development and general health</li>
+        <li>Reconnecting with oneself, others, and nature</li>
+        <li>Cultivating self-knowledge, self-discipline, and willpower by overcoming challenges</li>
+        <li>Encouraging participants to break free from technology and crowding and to manifest healthily in nature</li>
+        <li>Executing all activities in a safe and stable environment</li>
+      </ol>
+      <p>"Climb your mountain and you'll become one!"</p>
+    </div>
   </section>
 
   <section id="services">
