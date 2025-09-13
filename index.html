@@ -12,21 +12,22 @@
       line-height: 1.6;
     }
 
-    /* Animated header with background image */
+    /* Parallax header with animated title */
     header {
+      position: relative;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
       text-align: center;
       min-height: 100vh;
-      background: url('your-image.jpg') center/cover no-repeat; /* Replace with your image file */
+      background: url('background.jpeg') center/cover no-repeat fixed; /* replace with your image file */
       color: white;
       padding: 0 20px;
-      position: relative;
+      overflow: hidden;
     }
 
-    /* Overlay to darken image for readability */
+    /* Overlay for readability */
     header::after {
       content: "";
       position: absolute;
@@ -38,7 +39,8 @@
       z-index: 1;
     }
 
-    header h1, header p {
+    header h1,
+    header p {
       position: relative;
       z-index: 2;
     }
@@ -61,7 +63,6 @@
       animation: fadeSlide 1s forwards;
     }
 
-    /* Space between words */
     .animated-title span.space {
       width: 0.5em;
       animation: none;
@@ -150,14 +151,11 @@
 </head>
 <body>
 
-  <!-- Animated Header -->
+  <!-- Animated Parallax Header -->
   <header>
     <h1 class="animated-title">
-      <!-- First word -->
       <span>M</span><span>O</span><span>U</span><span>N</span><span>T</span><span>A</span><span>I</span><span>N</span>
-      <!-- Space -->
       <span class="space">&nbsp;</span>
-      <!-- Second word -->
       <span>I</span><span>N</span><span>S</span><span>I</span><span>D</span><span>E</span>
     </h1>
     <p class="subtitle">Guiding You to New Heights</p>
