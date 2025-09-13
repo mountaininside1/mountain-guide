@@ -17,7 +17,6 @@ mountain-guide/
       line-height: 1.6;
     }
     header {
-      background: IMG_8264.jpeg
       color: white;
       height: 100vh;
       display: flex;
