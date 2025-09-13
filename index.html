@@ -11,39 +11,88 @@
       color: #333;
       line-height: 1.6;
     }
+
     header {
-      color: white;
-      background: url('header-bg.jpg') center/cover no-repeat; /* optional background image */
-      min-height: 100vh;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
       text-align: center;
+      min-height: 100vh;
+      background: linear-gradient(to bottom, #2c3e50, #4ca1af);
+      color: white;
       padding: 0 20px;
     }
-    header h1 {
-      font-size: 3rem;
-      margin: 0;
+
+    .animated-title {
+      font-size: 6vw;
+      font-weight: 900;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
     }
-    header p {
-      font-size: 1.2rem;
+
+    .animated-title span {
+      opacity: 0;
+      transform: translateY(50px);
+      display: inline-block;
+      animation: fadeSlide 1s forwards;
+    }
+
+    /* Sequential animation delays for each letter */
+    .animated-title span:nth-child(1) { animation-delay: 0s; }
+    .animated-title span:nth-child(2) { animation-delay: 0.1s; }
+    .animated-title span:nth-child(3) { animation-delay: 0.2s; }
+    .animated-title span:nth-child(4) { animation-delay: 0.3s; }
+    .animated-title span:nth-child(5) { animation-delay: 0.4s; }
+    .animated-title span:nth-child(6) { animation-delay: 0.5s; }
+    .animated-title span:nth-child(7) { animation-delay: 0.6s; }
+    .animated-title span:nth-child(8) { animation-delay: 0.7s; }
+    .animated-title span:nth-child(9) { animation-delay: 0.8s; }
+    .animated-title span:nth-child(10){ animation-delay: 0.9s; }
+    .animated-title span:nth-child(11){ animation-delay: 1s; }
+    .animated-title span:nth-child(12){ animation-delay: 1.1s; }
+    .animated-title span:nth-child(13){ animation-delay: 1.2s; }
+    .animated-title span:nth-child(14){ animation-delay: 1.3s; }
+
+    @keyframes fadeSlide {
+      0% { opacity: 0; transform: translateY(50px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+
+    .subtitle {
+      font-size: 1.5rem;
       margin-top: 10px;
+      font-weight: 400;
+      color: #e0f7fa;
+      opacity: 0;
+      animation: subtitleFade 1s forwards;
+      animation-delay: 1.5s;
     }
+
+    @keyframes subtitleFade {
+      to { opacity: 1; }
+    }
+
     section {
       padding: 50px 20px;
       max-width: 1000px;
       margin: auto;
     }
+
     h2 {
       text-align: center;
       margin-bottom: 20px;
     }
+
     .services {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
       gap: 20px;
     }
+
     .service {
       background: #f4f4f4;
       padding: 20px;
@@ -51,27 +100,41 @@
       box-shadow: 0 2px 5px rgba(0,0,0,0.1);
       text-align: center;
     }
+
     footer {
       background: #333;
       color: white;
       text-align: center;
       padding: 20px;
     }
+
     a {
       color: #0077cc;
       text-decoration: none;
     }
-    /* Optional: separate RO/EN sections */
+
     .about-section { margin-bottom: 40px; }
     .about-section h3 { text-align: left; margin-top: 30px; }
+
+    @media (max-width: 600px) {
+      .animated-title { font-size: 10vw; }
+      .subtitle { font-size: 1.2rem; }
+    }
   </style>
 </head>
 <body>
+
+  <!-- Animated Header -->
   <header>
-    <h1>Mountain Inside</h1>
-    <p>Guiding You to New Heights – Mountain Guiding, Climbing, Team Building</p>
+    <h1 class="animated-title">
+      <span>M</span><span>O</span><span>U</span><span>N</span><span>T</span><span>A</span><span>I</span><span>N</span>
+      <span> </span>
+      <span>I</span><span>N</span><span>S</span><span>I</span><span>D</span><span>E</span>
+    </h1>
+    <p class="subtitle">Guiding You to New Heights</p>
   </header>
 
+  <!-- About Us -->
   <section id="about">
     <h2>About Us</h2>
 
@@ -81,17 +144,12 @@
       <ul>
         <li>Ghid montan aspirant AGMR</li>
         <li>Monitor schi acreditat CNFM 2017</li>
-        <li>Cadru militar activ - vânător de munte, cu o experiență de peste un deceniu în executarea și conducerea acțiunilor specifice de instrucție alpină, alpinism, instrucție tactică și căutare-salvare în mediul montan.</li>
+        <li>Cadru militar activ - vânător de munte, cu experiență de peste un deceniu în instrucție alpină, alpinism, instrucție tactică și căutare-salvare montană.</li>
       </ul>
-      <p>
-        Creat în anul 2017, „Mountain Inside” este proiectul de capacitare personală prin acțiuni de aventură desfășurate în mediul montan și în zonele adiacente, concomitent cu reducerea la minimum a riscurilor inerente acestor acțiuni.
-      </p>
-      <p>
-        Prin acest proiect, aleg să împărtășesc dragostea de munți și uimitoarele oportunități și trăiri pe care munții le oferă cu oamenii deschiși, care doresc eliberarea din societatea ciudată și suprasaturată de informație în care trăim și reconectarea la sine și la ceilalți, prin munte și natură.
-      </p>
+      <p>Creat în 2017, „Mountain Inside” este proiectul de capacitare personală prin acțiuni de aventură în mediul montan și zone adiacente, minimizând riscurile inerente.</p>
       <p><strong>Misiune asumată:</strong></p>
       <ul>
-        <li>Transformarea participanților (inclusiv părinți, copii și adolescenți) în oameni mai sănătoși, mai buni și mai conectați cu sine și cu ceilalți, prin activități montane și în natură pe tot parcursul anului:</li>
+        <li>Transformarea participanților în oameni mai sănătoși și conectați prin activități montane pe tot parcursul anului:</li>
       </ul>
       <ol>
         <li>Escaladă pe stâncă</li>
@@ -104,34 +162,21 @@
         <li>Schi-alpinism</li>
         <li>Team-building</li>
       </ol>
-      <p>Scopul acestor activități se definește prin următoarele:</p>
-      <ol>
-        <li>Capacitare fizică și psiho-emoțională pentru o dezvoltare armonioasă și pentru construirea și întărirea sănătății generale</li>
-        <li>Reconectarea cu sinele, cu ceilalți și cu natura</li>
-        <li>Cultivarea autocunoașterii, autodisciplinei și voinței prin depășirea provocărilor apărute</li>
-        <li>Cultivarea spiritului liber al participanților de a se descătușa de tehnologie și aglomerație și de a se manifesta sănătos în natură</li>
-        <li>Desfășurarea tuturor activităților într-un mediu stabil și sigur</li>
-      </ol>
       <p>„Cațără propriul munte și vei deveni unul!”</p>
     </div>
 
     <div class="about-section" lang="en">
       <h3>EN:</h3>
-      <p>I am Ionuț Manea, the founder of the <strong>Mountain Inside</strong> project:</p>
+      <p>I am Ionuț Manea, the founder of <strong>Mountain Inside</strong>:</p>
       <ul>
         <li>AGMR aspiring mountain guide</li>
         <li>CNFM accredited ski instructor 2017</li>
-        <li>Active military officer - mountain troops, with over a decade of experience in executing and leading alpine instruction, mountaineering, tactical instruction, and search and rescue in mountain environments.</li>
+        <li>Active military officer with experience in alpine instruction, mountaineering, tactical training, and search and rescue.</li>
       </ul>
-      <p>
-        Created in 2017, “Mountain Inside” is the personal empowerment project through adventure activities carried out in the mountain environment and adjacent areas, while minimizing the inherent risks.
-      </p>
-      <p>
-        Through this project, I choose to share the love of mountains and the amazing opportunities and experiences they offer with open-minded people who want to break free from the oversaturated society in which we live and reconnect with themselves and others through nature and mountains.
-      </p>
+      <p>Created in 2017, Mountain Inside empowers participants through mountain adventures while minimizing risks.</p>
       <p><strong>Mission:</strong></p>
       <ul>
-        <li>Transforming participants (including parents, children, and adolescents) into healthier, better, and more connected people with themselves and others through mountain and nature activities year-round:</li>
+        <li>Transforming participants into healthier and more connected people year-round:</li>
       </ul>
       <ol>
         <li>Rock climbing</li>
@@ -144,18 +189,11 @@
         <li>Ski mountaineering</li>
         <li>Team-building</li>
       </ol>
-      <p>The purpose of these activities:</p>
-      <ol>
-        <li>Physical and psycho-emotional training for harmonious development and general health</li>
-        <li>Reconnecting with oneself, others, and nature</li>
-        <li>Cultivating self-knowledge, self-discipline, and willpower by overcoming challenges</li>
-        <li>Encouraging participants to break free from technology and crowding and to manifest healthily in nature</li>
-        <li>Executing all activities in a safe and stable environment</li>
-      </ol>
       <p>"Climb your mountain and you'll become one!"</p>
     </div>
   </section>
 
+  <!-- Services -->
   <section id="services">
     <h2>Our Services</h2>
     <div class="services">
@@ -174,6 +212,7 @@
     </div>
   </section>
 
+  <!-- Contact -->
   <section id="contact">
     <h2>Contact Us</h2>
     <p>Email: <a href="mailto:mountaininside1@gmail.com">mountaininside1@gmail.com</a></p>
@@ -184,5 +223,6 @@
   <footer>
     <p>&copy; 2025 Mountain Inside. All rights reserved.</p>
   </footer>
+
 </body>
 </html>
